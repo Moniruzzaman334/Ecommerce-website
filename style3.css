@@ -7,13 +7,13 @@ body{
     height:auto;
     border-radius: 50%;
     border:5px solid red;
-    gap:50px;
+    gap:20px;
 
 }
 .logo{
     display:flex;
     align-items:center;
-    gap:50px;
+    gap:20px;
 
 }
 .logo h2{
@@ -82,7 +82,7 @@ header h2{
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:40px;
+    gap:20px;
 
 }
 .product-card{
@@ -131,12 +131,12 @@ header h2{
 .login button{
     color:red;
     font-size:20px;
-    border:10px solid red;
+    border:5px solid red;
 }
 .a{
     font-size:20px;
     color:chocolate;
-    gap:50px;
+    gap:20px;
 }
 .cart{
     display:grid;
@@ -147,7 +147,7 @@ header h2{
 .cart-item button{
     color:red;
     font-size:20px;
-    border:10px solid red;
+    border:5px solid red;
 
 }
 .total{
@@ -156,8 +156,8 @@ header h2{
 }
 .total button{
     color:black;
-    font-size:60px;
-    border:10px solid red;
+    font-size:20px;
+    border:5px solid red;
 }
 .footer{
     color:black;
@@ -166,4 +166,22 @@ header h2{
 .m{
     background-color: red;
     font-size:20px;
+}
+@media (max-width: 768px){
+    body {
+        font-size:16px;
+    }
+    .banner{
+        font-size:28px;
+
+    }
+    header{
+        font-size:16px;
+    }
+    main{
+        font-size:16px
+    }
+    .footer{
+        font-size:16px;
+    }
 }
