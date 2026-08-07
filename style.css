@@ -1,0 +1,41 @@
+.content{
+    display:grid;
+    grid-template-columns: repeat(3,200px) ;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    
+    
+} 
+.box{
+    
+    width:auto;
+    min-height:250px;
+    text-align:center;
+    padding:10px;
+    border:2px solid red;
+    font-size:20px;
+}
+.header{
+    color:red;
+    font-size:100px;
+    
+}
+.footer{
+    color:green;
+    font-size:50px;
+}
+.menu{
+    color:BLUE;
+    font-size:50px;
+}
+img{
+    width:50px;
+    height:50px;
+}
+button{
+   color:red; 
+}
+h2{
+    color:red;
+}
