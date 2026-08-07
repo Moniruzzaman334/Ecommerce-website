@@ -41,15 +41,17 @@ nav ul li a{
     font-size: 20px;
 }
 .search button{
-    font-size: 20px;
+    width:100px;
+    height:30px;
+    font-size: 15px;
     color:red;
     border:5px solid red;
     
 }
 .search input[type="text"]{
-    width:120px;
+    width:100px;
     height:30px;
-    padding:5px;
+    border:5px solid red;
     font-size:15px;
        
 }
@@ -192,4 +194,10 @@ header h2{
         background-color: gray;
 
     }
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
 }
