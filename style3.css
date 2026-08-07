@@ -141,7 +141,7 @@ header h2{
 }
 .cart{
     display:grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,300px);
     font-size:20px;
     color:brown;
 }
@@ -150,6 +150,14 @@ header h2{
     font-size:20px;
     border:5px solid red;
 
+}
+.cart-item{
+    width:220;
+    height:auto;
+    border:5px solid red;
+    font-size:20px;
+    background-color: green;
+    gap:50px;    
 }
 .total{
     font-size:20px;
